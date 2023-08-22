@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/modern-normalize.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <body>
     <!-- Top Line -->
-    <header>
+    <header class="header-page">
+      <div class="header-container container">
       <nav class="navigation-bar">
         <a href="index.html" class="logo">WEB<span class="logo-span">STUDIO</span></a>
           <ul class="top-line">
@@ -20,58 +22,69 @@
             <li><a href="#Contacts">Contacts</a></li>
           </ul>
       </nav>
-      <address>
-        <ul>
+      <address class="contact-top">
+        <ul class="contact-item">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
+    </div>
     <main>
       <!-- Section 1 -->
       <section class="section-one">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <div class="container">
+        <h1 class="title-section-one">Effective Solutions for Your Business</h1>
+        <button type="button" class="button">Order Service</button>
+        </div>
       </section>
+
       <!-- Section 2 -->
       <section class="section-two">
-        <h2 hidden>Values</h2>
+        <div class="container">
+
+
+        <h2 class="vissually-hidden">Values</h2>
         <ul class="strategy">
-          <li>
-            <h3>Strategy</h3>
-            <p>
+          <li class="features-list-items">
+            <h3 class="feautures-title">Strategy</h3>
+            <p class="features-text">
               Our goal is to identify the business<br/> problem to walk away with the<br/>
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="features-list-items">
+            <h3 class="features-title">Punctuality</h3>
+            <p class="features-text">
               Bring the key message to the <br/> brand's audience for the best price<br/>
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="features-list-items">
+            <h3 class="features-title">Diligence</h3>
+            <p class="features-text">
               Research and confirm brands that<br/> present the strongest digital
               growth<br/> opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="features-list-items">
+            <h3 lass="features-title">Technologies</h3>
+            <p class="features-text">
               Design practice focused on digital<br/> experiences. We bring forth a
               deep<br/> passion for probme-solving.
             </p>
           </li>
         </ul>
+        </div>
       </section>
+
+      
       <!-- Section 3-->
       <section class="section-three">
-        <h2>What Are We Doing</h2>
-        <ul class="products">
-          <li>
+        <div class="container">
+        <h2 class="activity-title">What Are We Doing</h2>
+        <ul class="activity-list list">
+          <li class="activity-list-item">
             <img
               src="images/Rectangle 71.jpg"
               alt="Website"
@@ -79,7 +92,7 @@
               height="300px"
             />
           </li>
-          <li>
+          <li class="activity-list-item">
             <img
               src="images/img 2.jpg"
               alt="Mobile"
@@ -87,7 +100,7 @@
               height="300px"
             />
           </li>
-          <li>
+          <li class="activity-list-item">
             <img
               src="images/img 3.jpg"
               alt="Operation"
@@ -96,65 +109,80 @@
             />
           </li>
         </ul>
+        </div>
       </section>
+
+
       <!-- Section 4-->
       <section class="section-four">
-        <h2>Our Team</h2>
-        <ul class="team">
-          <li>
+        <div class="container">
+        <h2 class="team-title">Our Team</h2>
+        <ul class="team-items list">
+          <li class="team-item">
             <img
               src="images/img (1).jpg"
               alt="Mark"
               width="264px"
               height="260px"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <div class="team-item-name">
+            <h3 class="name" >Mark Guerrero</h3>
+            <p class="position">Product Designer</p>
+            </div>
           </li>
 
-          <li>
+          <li class="team-item">
             <img
               src="images/img (2).jpg"
               alt="Tom"
               width="264px"
               height="260px"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <div class="team-item-name">
+            <h3 class="name">Tom Ford</h3>
+            <p class="position">Frontend Developer</p>
+            </div>
           </li>
 
-          <li>
+          <li class="team-item">
             <img
               src="images/img (3).jpg"
               alt="Camila"
               width="264px"
               height="260px"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <div class="team-item-name">
+            <h3 class="name">Camila Garcia</h3>
+            <p class="position">Marketing</p>
+            </div>
           </li>
 
-          <li>
+          <li class="team-item">
             <img
               src="images/img (4).jpg"
               alt="Daniel"
               width="264px"
               height="260px"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+             <div class="team-item-name">
+            <h3 class="name">Daniel Wilson</h3>
+            <p class="position">UI Designer</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer Page-->
-    <footer>
+    <footer class="footer-page">
+      <div class="container">
       <a href="index.html" class="logo">WEB<span class="logo-span">STUDIO</span></a>
       <p>
         Increase the flow of customers and<br/> sales for your growth with digital<br/>
         marketing & growth solutions
-      </p>
+      </p class="footer-description">
+      </div>
     </footer>
   </body>
 </html>
