@@ -11,134 +11,190 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <body>
-    <header>
+    <header class="header-page">
+      <div class="header-container container">
       <nav class="navigation-bar">
+
+
          <a href="index.html" class="logo">WEB<span class="logo-span">STUDIO</span></a>
           <ul class="top-line">
-            <li><a href="index.html">Studio</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#Contacts">Contacts</a></li>
+            <li class="top-line-item"><a href="index.html">Studio</a></li>
+            <li class="top-line-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="top-line-item"><a href="#Contacts">Contacts</a></li>
           </ul>
       </nav>
      <address>
-        <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
+        <ul class="contacts-item list">
+        <li class="contacts-item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+        <li class="contacts-item"><a href="tel:+11 (000) 111-11-11" class="link">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+      </div>
     </header>
     <main>
       <section class="menu-section">
-       
-        <h2 hidden>Menu</h2>
-        <button class="button-filter" type="button">All</button><br/>
-        <button class="button-filter" type="button">Website</button><br/>
-        <button class="button-filter" type="button">App</button><br/>
-        <button class="button-filter" type="button">Design</button><br/>
-        <button class="button-filter" type="button">Marketing</button><br/>
+       <div class="container">
+
+
+        <h2 class="visually-hidden">Menu</h2>
+        <ul class="filter-list">
+        <li class="filter-button"><button class="button-filter" type="button">All</button><br/></li>
+        <li class="filter-button"><button class="button-filter" type="button">Website</button><br/></li>
+        <li class="filter-button"><button class="button-filter" type="button">App</button><br/></li>
+        <li class="filter-button"><button class="button-filter" type="button">Design</button><br/></li>
+        <li class="filter-button"><button class="button-filter" type="button">Marketing</button><br/></li>
+        </ul>
 
         <h2 hidden>Products</h2>
         <ul class="products">
-          <li>
+          <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/banking app.jpg"
               alt="Banking App"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+            <h3 class="gallery-title">Banking App Interface Concept</h3>
+            <p class="filter-unit">App</p>
+          </div>
+          </a>
           </li>
-          <h3>Banking App Interface Concept</h3>
-          <p>App</p>
-          <li>
+
+          <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/cashless.jpg"
               alt="Cashless Payment"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+            <h3 class="gallery-title">Cashless Payment</h3>
+            <p class="filter-unit">Marketing</p>
+          </div>
+          </a>
           </li>
-          <h3>Cashless Payment</h3>
-          <p>Marketing</p>
-          <li>
+
+         <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/meditation app.jpg"
               alt="Meditation App"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+          <h3 class="gallery-title">Meditation App</h3>
+          <p class="filter-unit">App</p>
+          </div>
+          </a>
           </li>
-          <h3>Meditation App</h3>
-          <p>App</p>
-          <li>
+
+          <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/taxi service.jpg"
               alt="Taxi Service"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+          <h3 class="gallery-title">Taxi Service</h3>
+          <p class="filter-unit">Marketing</p>
+          </div>
+          </a>
           </li>
-          <h3>Taxi Service</h3>
-          <p>Marketing</p>
-          <li>
+
+          <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/screen.jpg"
               alt="Screen"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+            <h3 class="gallery-title">Screen Illustrations</h3>
+            <p class="filter-unit">Design</p>
+            </div>
+            </a>
           </li>
-          <h3>Screen Illustrations</h3>
-          <p>Design</p>
-          <li>
+
+          <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/online.jpg"
               alt="Online Courses"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+          <h3 class="gallery-title">Online Courses</h3>
+          <p class="filter-unit">Marketing</p>
+          </div>
+          </a>
           </li>
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
-          <li>
+
+          <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/instagram.jpg"
               alt="Instagram"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+          <h3 class="gallery-title">Instagram Stories Concept</h3>
+          <p class="filter-unit">Design</p>
+          </div>
+          </a>
           </li>
-          <h3>Instagram Stories Concept</h3>
-          <p>Design</p>
-          <li>
+
+          <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/organic.jpg"
               alt="Organic"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+          <h3 class="gallery-title">Organic Food</h3>
+          <p class="filter-unit">Web Site</p>
+          </div>
+          </a>
           </li>
-          <h3>Organic Food</h3>
-          <p>Web Site</p>
-          <li>
+
+          <li class="product-item">
+            <a href="" class="link">
             <img
               src="images/coffee.jpg"
               alt="Coffee"
               width="360px"
               height="300px"
             />
+          <div class="photo-info">
+          <h3 class="gallery-title">Fresh Coffee</h3>
+          <p class="filter-unit">Web Site</p>
+          </div>
+          </a>
           </li>
-          <h3>Fresh Coffee</h3>
-          <p>Web Site</p>
+
         </ul>
+        </div>
       </section>
     </main>
 
-     <footer>
+      <footer class="footer-page">
+        <div class="container">
        <a href="index.html" class="logo">WEB<span class="logo-span">STUDIO</span></a>
-      <p>
+       <p class="footer-description">
         Increase the flow of customers and<br/> sales for your growth with digital<br/>
         marketing & growth solutions
       </p>
+      </div>
       </footer>
   </body>
 </html>
