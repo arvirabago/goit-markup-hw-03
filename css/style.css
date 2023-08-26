@@ -19,6 +19,22 @@ body {
   color: var(--navyblue);
 }
 
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.contacts-item {
+  display: flex;
+  gap: 24px;
+}
+
+address {
+  font-style: normal;
+}
+
 .link {
   text-decoration: none;
 }
@@ -40,10 +56,6 @@ img {
   display: block;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .header-page {
   border-bottom: 1 px solid #e7e9fc;
 }
@@ -128,6 +140,15 @@ img {
   color: var(--iris);
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.no-top-padding {
+  padding: 0;
+}
+
 .section-one {
   background-color: var(--navyblue);
   color: white;
@@ -169,7 +190,6 @@ img {
 }
 
 .features-list {
-  list-style-type: none;
   display: flex;
 }
 
@@ -198,22 +218,21 @@ img {
   letter-spacing: 0.32px;
 }
 
-.section-three {
-  padding-top: 0px;
-}
-
 .activity-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  margin-bottom: 72px;
-  margin-top: 120px;
   text-transform: capitalize;
 }
 
 .activity-list-item + .activity-list-item {
   display: flex;
+}
+
+.activity-list {
+  display: flex;
+  gap: 24px;
 }
 
 .section-four {
@@ -231,7 +250,6 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   background-color: white;
-  width: 120px;
 }
 
 .team-item + .team-item {
