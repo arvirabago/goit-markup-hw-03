@@ -26,11 +26,6 @@ body {
   gap: 24px;
 }
 
-.contacts-item {
-  display: flex;
-  gap: 24px;
-}
-
 address {
   font-style: normal;
 }
@@ -46,10 +41,10 @@ address {
 }
 
 .container {
-  width: 1200px;
+  margin: 0 auto;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  justify-content: center;
 }
 
 img {
@@ -145,7 +140,6 @@ img {
   background-color: var(--navyblue);
   color: white;
   text-align: center;
-  padding-top: 188px;
   padding-bottom: 188px;
 }
 
